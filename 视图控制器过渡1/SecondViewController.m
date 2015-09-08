@@ -9,9 +9,11 @@
 #import "SecondViewController.h"
 #import "FlatZoomPopTransition.h"
 #import "FlatZoomInteractivePopTransition.h"
+#import "FlatPanImageInteractivePopTransition.h"
 
 @interface SecondViewController () <UINavigationControllerDelegate>
 @property (nonatomic, strong) FlatZoomInteractivePopTransition *popInteractiveTransition;
+@property (nonatomic, strong) FlatPanImageInteractivePopTransition *panTransition;
 @end
 
 @implementation SecondViewController
@@ -42,7 +44,8 @@
     label.frame = CGRectMake(x, y, w, h);
     [self.view addSubview:label];
     
-    self.popInteractiveTransition = [[FlatZoomInteractivePopTransition alloc] initWithController:self];
+//    self.popInteractiveTransition = [[FlatZoomInteractivePopTransition alloc] initWithController:self];
+    self.panTransition = [[FlatPanImageInteractivePopTransition alloc] initWithController:self];
 }
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -61,7 +64,8 @@
 - (id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController
 {
     if ([animationController isKindOfClass:[FlatZoomPopTransition class]]) {
-        return self.popInteractiveTransition.interactiving ? self.popInteractiveTransition : nil;
+//        return self.popInteractiveTransition.interactiving ? self.popInteractiveTransition : nil;
+        return self.panTransition.interactiving ? self.panTransition : nil;
     }
     
     return nil;

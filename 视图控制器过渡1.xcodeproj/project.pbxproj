@@ -10,6 +10,7 @@
 		249FB4C11B9E7F05009D7CE9 /* FlatZoomPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FB4C01B9E7F05009D7CE9 /* FlatZoomPushTransition.m */; };
 		249FB4C41B9E7F3C009D7CE9 /* FlatZoomInteractivePopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FB4C31B9E7F3C009D7CE9 /* FlatZoomInteractivePopTransition.m */; };
 		249FB4C71B9E89F1009D7CE9 /* FlatZoomPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FB4C61B9E89F1009D7CE9 /* FlatZoomPopTransition.m */; };
+		249FB4CA1B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FB4C91B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.m */; };
 		24BCDAF51B9DEC0800B3BC65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BCDAF41B9DEC0800B3BC65 /* main.m */; };
 		24BCDAF81B9DEC0800B3BC65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BCDAF71B9DEC0800B3BC65 /* AppDelegate.m */; };
 		24BCDAFE1B9DEC0800B3BC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BCDAFC1B9DEC0800B3BC65 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		249FB4C31B9E7F3C009D7CE9 /* FlatZoomInteractivePopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatZoomInteractivePopTransition.m; sourceTree = "<group>"; };
 		249FB4C51B9E89F1009D7CE9 /* FlatZoomPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatZoomPopTransition.h; sourceTree = "<group>"; };
 		249FB4C61B9E89F1009D7CE9 /* FlatZoomPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatZoomPopTransition.m; sourceTree = "<group>"; };
+		249FB4C81B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatPanImageInteractivePopTransition.h; sourceTree = "<group>"; };
+		249FB4C91B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatPanImageInteractivePopTransition.m; sourceTree = "<group>"; };
 		24BCDAEF1B9DEC0800B3BC65 /* 视图控制器过渡1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图控制器过渡1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BCDAF31B9DEC0800B3BC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24BCDAF41B9DEC0800B3BC65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				249FB4C61B9E89F1009D7CE9 /* FlatZoomPopTransition.m */,
 				249FB4C21B9E7F3C009D7CE9 /* FlatZoomInteractivePopTransition.h */,
 				249FB4C31B9E7F3C009D7CE9 /* FlatZoomInteractivePopTransition.m */,
+				249FB4C81B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.h */,
+				249FB4C91B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.m */,
 				24BCDB201B9DF04800B3BC65 /* SecondViewController.h */,
 				24BCDB211B9DF04800B3BC65 /* SecondViewController.m */,
 				24BCDB1B1B9DECC900B3BC65 /* FirstCellCollectionViewCell.h */,
@@ -253,6 +258,7 @@
 				24BCDB1A1B9DEC5E00B3BC65 /* FirstCollectionViewController.m in Sources */,
 				249FB4C11B9E7F05009D7CE9 /* FlatZoomPushTransition.m in Sources */,
 				24BCDAF81B9DEC0800B3BC65 /* AppDelegate.m in Sources */,
+				249FB4CA1B9EC8C8009D7CE9 /* FlatPanImageInteractivePopTransition.m in Sources */,
 				24BCDAF51B9DEC0800B3BC65 /* main.m in Sources */,
 				249FB4C41B9E7F3C009D7CE9 /* FlatZoomInteractivePopTransition.m in Sources */,
 				24BCDB1E1B9DECC900B3BC65 /* FirstCellCollectionViewCell.m in Sources */,

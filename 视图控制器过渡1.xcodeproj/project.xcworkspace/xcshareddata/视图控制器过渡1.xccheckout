@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7AB8B37A-6C40-4F9E-BF9E-A2EA962BA110</string>
+	<key>IDESourceControlProjectName</key>
+	<string>视图控制器过渡1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3946D38F709277DAA90B235F60CE2ACC6543FD43</key>
+		<string>https://github.com/GR-harry/FlatZoomTransition-1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>视图控制器过渡1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3946D38F709277DAA90B235F60CE2ACC6543FD43</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GR-harry/FlatZoomTransition-1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3946D38F709277DAA90B235F60CE2ACC6543FD43</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3946D38F709277DAA90B235F60CE2ACC6543FD43</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E8%A7%86%E5%9B%BE%E6%8E%A7%E5%88%B6%E5%99%A8%E8%BF%87%E6%B8%A11</string>
+		</dict>
+	</array>
+</dict>
+</plist>
